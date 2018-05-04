@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<title>Example</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  font-size: 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  display: flex;
+  height: 60vh
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}
+header, footer {
+  background: grey;
+  height: 10vh;
+}
+header, footer, article, nav, aside { 
+  padding: 1em;
+}
+ .galleria{ width: 700px; height: 400px; backgroud: #000 }
+</style>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+		<script src="galleria/galleria-1.4.2.min.js"></script>
+<body>
+  <header>  <a href="Home page.html">Home</a> | <a href="about me.html">About me</a> | <a href="Previous work.html">Previous work</a>  | <a href="Skills Page.html">skills</a> | <a href="Objective Page.html">Objective</a> | 
+  
+
+  </header>
+  <div id="main">
+    <article> </article>
+    
+
+       
+
+  
+ 
+ <div class="galleria">
+    <img src="images/Pogba.jpg">
+    <img src="images/PS4.jpg">
+    <img src="images/GYM.jpg">
+</div>				
+
+<script>
+Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+Galleria.run('.galleria');
+</script>	
+
+
+</body>
+	
+	
+	
+	
+	
+</html>
+
+    <nav>   <img src="images/Logo.jpg">   </nav>
+    <aside></aside>
+  </div>
+  <footer></footer>
+</body>
+</html>

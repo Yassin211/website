@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html>
+<title>Example</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+   font-size: 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  display: flex;
+  height: 60vh
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}
+header, footer {
+  background: grey;
+  height: 10vh;
+}
+header, footer, article, nav, aside { 
+  padding: 1em;
+}
+</style>
+<body>
+  <header>  | <a href="Previous work.html">Previous work</a> |  
+  
+
+  </header>
+  <div id="main">
+    <article> I have done another project were I have worked with spreadsheets in many ways from doing calulation to creating a spreadsheet for a company, this contained many things such as pages and calulation which were made easy due to features that MS Excel offered. The facilities of spreadsheets make calculations easier to understand by displaying stages of the development of a sum, with the ability to write notes explaining each line. The grid encasing the cells in the spreadsheet can either be visible or hidden in print outs, enabling reports to be formatted from the display of the spreadsheet.Another good use of spreadsheets which I have used and found useful is Spreadsheet programs can transform data sets into various types of graphical displays. In Excel, the Charts section provides the ability to present a data set within a chart or graph. This allows users to visualize and communicate their data sets within presentations, for example using pie or bar charts. Visualizing data in this way can help you understand the data and inform future planning decisions.  <img src="images/Spreadsheet Work.jpg" width="356" height="246"></article>
+    <img src="images/Spreadsheet example.jpg" width="403" height="248">
+    <nav> <img src="images/Logo.jpg"></nav>
+    <aside>Aside</aside>
+  </div>
+<footer>Footer</footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html>
+<title>Example</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  font-size: 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  display: flex;
+  height: 60vh
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}
+header, footer {
+  background: grey;
+  height: 10vh;
+}
+header, footer, article, nav, aside { 
+  padding: 1em;
+}
+</style>
+<body>
+  <header> <a href="Home page.html">Home Page</a> | <a href="Previous work.html">Previous work</a> | <a href="Hobbies page.html">Hobbies </a>| <a href="Skills Page.html">skills </a>| Objective | <a href="about me.html">About me</a>
+  
+
+  </header>
+  <div id="main">
+    <article> One of my objectives in life is to attend univeristy as this will open up a variety of future options allowing me to be free in anything I want to do, as I know this will help me in Seeking an Entry Level Position that will further develop my skills as a good team player in a future Industries.A degree will not only give me the opportunity to gain an in-depth knowledge of their chosen subject but also to develop transferable skills such as communication, presentation and problem-solving skills and enhancing their ability to work as part of a team.University can help me to build my self-confidence and independence. They will have opportunities to try out new intrests and focus on specific things that intrest me.Looking at the big picture, it’s easier to get a job if you have a higher education degree. Many careers that require a degree also pay a better salary. This can vary depending on the degree subject, but more doors will be open to you with a degree than without one. </article>
+
+    <nav>   <img src="images/Logo.jpg">   </nav>
+    <aside></aside>
+  </div>
+  <footer></footer>
+</body>
+</html>
